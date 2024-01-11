@@ -160,13 +160,11 @@ let taskTwentyThree = [23, 45, 5, 62, 1, 21, 3, 54];
 /* I arrayen ovan, filtera fram alla nummer över 5. Tips: Läs dokumentationen för filter() */
 console.log(taskTwentyThree.filter(overFive => overFive > 5))
 
-
 /* 24 */
 console.log('Uppgift 24-----------------------');
 let taskTwentyFour = [23, 45, 5, 62, 1, 21, 3, 54];
 /* I arrayen ovan, filtera fram alla nummer under 5. Tips: Läs dokumentationen för filter() */
 console.log(taskTwentyFour.filter(underFive => underFive < 5))
-
 
 //Array innehållandes flera objekt. För uppgift 25, 26, 29-33.
 let persons = [
@@ -200,6 +198,7 @@ console.log('Uppgift 25-----------------------');
 /* Skriv ut alla namn som är 18 år eller över från arrayen ovanför. */
 // console.log(...persons.filter(overEighteen => overEighteen.age > 18)) //Ger hela objektet som svar. Måste lägga till en map() funktion för att enbart ta namnen.
 console.log(persons.filter(person => person.age > 18).map(person => person.name)) //Rapporterar nu ut enbart namnen.
+
 // /* 26 */
 console.log('Uppgift 26-----------------------');
 // /* Skriv ut alla namn som är under 18 år från arrayen ovanför. */
@@ -245,7 +244,6 @@ console.log('Uppgift 33-----------------------');
 /* I person-arrayen ovanför, spegelvänd alla namn. */
 let taskThirtyThree = taskThirtyTwo.reverse();
 console.log(taskThirtyThree);
-
 
 /* 34 */
 console.log('Uppgift 34-----------------------');
